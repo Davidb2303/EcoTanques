@@ -89,9 +89,7 @@ DATABASES = {
         'PORT': '3306',  
         'OPTIONS': {
             'charset': 'utf8mb4',  # Soporte para emojis y caracteres especiales'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        }
+        },
     }
 }
 
