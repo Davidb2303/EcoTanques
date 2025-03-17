@@ -1,5 +1,5 @@
 from django.db import models
-from Tanks.Tank.models import Tanque
+from Tank.models import Tanque
 
 # Create your models here.
 class SensorData(models.Model):

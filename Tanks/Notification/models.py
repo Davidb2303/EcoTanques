@@ -1,5 +1,5 @@
 from django.db import models
-from Tanks.User.models import Usuario
+from User.models import Usuario
 
 # Create your models here.
 class Notificacion(models.Model):

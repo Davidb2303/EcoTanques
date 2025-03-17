@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Tanks.User',
-    'Tanks.Tank',
-    'Tanks.SensorData',
-    'Tanks.Notification',
+    'User',
+    'Tank',
+    'SensorData',
+    'Notification',
 ]
 
 MIDDLEWARE = [
@@ -82,8 +82,8 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'nombre_de_tu_base_de_datos',
-        'USER': 'cimpas23',
+        'NAME': 'ecotanques',
+        'USER': 'root',
         'PASSWORD': '1234.abcd',
         'HOST': 'localhost',  
         'PORT': '3306',  
