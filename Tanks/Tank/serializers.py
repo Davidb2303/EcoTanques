@@ -1,7 +1,7 @@
-from .models import Sensor
+from .models import Tanque
 from rest_framework import serializers
 
-class SensorSerializer(serializers.ModelSerializer):
+class TanqueSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Sensor
+        model = Tanque
         fields = '__all__'
