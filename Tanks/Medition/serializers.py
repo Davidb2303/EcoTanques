@@ -4,4 +4,4 @@ from .models import Medicion
 class MedicionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Medicion
-        fields = '__all__'
+        fields = ['id', 'sensor', 'valor', 'timestamp']
