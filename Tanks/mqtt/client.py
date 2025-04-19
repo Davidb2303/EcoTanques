@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import json
 from django.utils.timezone import now
 from Tanks.Tank.models import Tanque
-from Tanks.SensorData.models import Sensor
+from Tanks.Sensors.models import Sensor
 from Tanks.Medition.models import Medicion
 
 # Configuración MQTT  

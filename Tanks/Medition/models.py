@@ -1,5 +1,5 @@
 from django.db import models
-from SensorData import Sensor
+from Sensors import Sensor
 
 # Create your models here.
 class Medicion(models.Model):
