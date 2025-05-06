@@ -1,0 +1,27 @@
+{
+  "name": "ecotanques",
+  "version": "1.0.0",
+  "description": "Proyecto acerca de Tanques con Nicolás y Tomás",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidb2303/EcoTanques.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davidb2303/EcoTanques/issues"
+  },
+  "homepage": "https://github.com/Davidb2303/EcoTanques#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0"
+  }
+}

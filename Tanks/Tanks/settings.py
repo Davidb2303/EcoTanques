@@ -25,6 +25,10 @@ SECRET_KEY = 'django-insecure-uiji1u$e8z(x_+sln_6fcxf+j*yg6wstdps8^#5p$4x6suzfv2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+
 ALLOWED_HOSTS = []
 
 AUTH_USER_MODEL = 'User.Usuario'
