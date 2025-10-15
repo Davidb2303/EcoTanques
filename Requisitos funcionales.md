@@ -119,11 +119,9 @@
 
 ## Notas
 
-- Todos los microservicios (excepto MQTT) deben implementarse en TypeScript.
+- Todos los microservicios (excepto MQTT y Machine Learning) deben implementarse en TypeScript.
 - Cada microservicio debe ser desplegable y escalable de forma independiente.
 - La comunicación entre microservicios debe ser segura y autenticada.
 - El microservicio MQTT debe permanecer en Python por requerimiento del sistema.
 
 ---
-
-¿Necesitas que te genere la estructura base de carpetas para estos microservicios en TypeScript y Python?
